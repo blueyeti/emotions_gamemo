@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<presetXML version="0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blueyeti.fr/ file:appPack_0_0_1.xsd">
+  <preset number="1" name="default">
+  
+    <!-- ordre des langues, ici à titre informatif -->
+    <data address="/languages/main">FR</data>
+    <data address="/languages/second">DE</data>
+    <!-- résolution écran, ici à titre informatif -->
+    <data address="/screen/w">1080</data>
+    <data address="/screen/h">1920</data>
+    <!-- mise en plein écran de l'interactif -->
+    <data address="/screen/fullscreen">true</data>
+    <!-- masquage du pointeur de la souris -->
+    <data address="/screen/hideCursor">false</data>
+    <!-- temps d'inactivité en secondes avant retour à l'écran d'accueil -->
+    <data address="/time/timeout">120</data>
+    <data address="/time/chrono">120</data>
+    <!-- identifiant de l'interactif -->
+    <data address="/application_id">1</data>
+    <!-- mode debug (sans python) -->
+    <data address="/debug">true</data>
+    <!-- facteur de difficulté -->
+    <data address="/difficulty_factor">3</data>
+
+    <!-- chemin vers l'exécutable python.exe -->
+    <data address="/python/bin">file:///C:/Python27/python.exe</data>
+    <!-- chemin vers le script python de récupération des données du capteur GSR -->
+    <data address="/python/gsr">C:/Users/Laugre/Travail/15-emotions/src/01-tetris/bin-debug/python/emoplay.py</data>
+    
+    <!-- code touche validation ENTER -->
+    <data address="/keycode/valid">13</data>
+    <!-- code touche rotation block TOP -->
+    <data address="/keycode/rotate">38</data>
+    <!-- code touche accélération chute block BOTTOM -->
+    <data address="/keycode/accelerate">32</data>
+    <!-- code touche déplacement gauche LEFT -->
+    <data address="/keycode/left">37</data>
+    <!-- code touche déplacement droite RIGHT -->
+    <data address="/keycode/right">39</data>
+    
+    <!-- chemin vers les sons spécifiques à l'interactif et volumes (/100) -->
+    <data address="/sound/effects/slide_interface/filepath">medias/sons/helpOpen.mp3</data>
+    <data address="/sound/effects/slide_interface/volume">40</data>
+    <data address="/sound/effects/slide_item/filepath">medias/sons/creditsOpen.mp3</data>
+    <data address="/sound/effects/slide_item/volume">40</data>
+    <data address="/sound/effects/show_valid_button/filepath">medias/sons/click.mp3</data>
+    <data address="/sound/effects/show_valid_button/volume">40</data>
+    <data address="/sound/effects/show_direction_button/filepath">medias/sons/click.mp3</data>
+    <data address="/sound/effects/show_direction_button/volume">40</data>
+    <data address="/sound/effects/click_valid_button/filepath">medias/sons/goHomeWnd.mp3</data>
+    <data address="/sound/effects/click_valid_button/volume">40</data>
+    <data address="/sound/effects/click_direction_button/filepath">medias/sons/click.mp3</data>
+    <data address="/sound/effects/click_direction_button/volume">40</data>
+    
+    <data address="/sound/effects/quiet_calibration/filepath"></data>
+    <data address="/sound/effects/quiet_calibration/volume">40</data>
+    
+    <data address="/sound/effects/tetris/filepath">medias/sons/TetrisMusic.mp3</data>
+    <data address="/sound/effects/tetris/volume">40</data>
+    
+    <data address="/sound/effects/level/up/filepath">medias/sons/creditsOpen.mp3</data>
+    <data address="/sound/effects/level/up/volume">40</data>
+    <data address="/sound/effects/level/down/filepath">medias/sons/creditsClose.mp3</data>
+    <data address="/sound/effects/level/down/volume">40</data>
+    
+    <data address="/sound/effects/points/win_block/filepath">medias/sons/TetrisPose.mp3</data>
+    <data address="/sound/effects/points/win_block/volume">20</data>
+    <data address="/sound/effects/points/win_line/filepath">medias/sons/TetrisLine.mp3</data>
+    <data address="/sound/effects/points/win_line/volume">40</data>
+    
+    <data address="/sound/effects/game_over/filepath">medias/sons/TetrisGameOver.mp3</data>
+    <data address="/sound/effects/game_over/volume">40</data>
+    
+    <data address="/sound/effects/timeout/filepath">medias/sons/TimeOut.mp3</data>
+    <data address="/sound/effects/timeout/volume">30</data>
+    
+  </preset>
+  
+  <preset number="2" name="FR">
+    
+    <data address="/accueil/title">GamEMO</data>
+    <data address="/accueil/tooltip">Pressez le bouton pour démarrer</data>
+	<data address="/lang/tooltip">Choisissez votre langue avec la manette et pressez le bouton pour valider</data>
+	<data address="/lang/name">Français</data>
+    <data address="/sensor/tooltip1">Posez vos doigts sur le capteur</data>
+	<data address="/sensor/tooltip2">Serrez les fixations</data>
+	<data address="/sensor/tooltip3">Pressez le bouton rouge</data>
+	<data address="/calibration/start">Etalonnage en cours...</data>
+	<data address="/calibration/stop">Etalonnage terminé</data>
+	<data address="/calibration/tooltip1"><![CDATA[Le capteur va mesurer votre niveau d’ennui ou d’anxiété et adapter la difficulté du jeu.<br><br>Vous allez maintenant<br>vous relaxer pendant que<br>le capteur s’étalonne.]]></data>
+	<data address="/calibration/tooltip2">Pressez le bouton pour jouer</data>
+	<data address="/game/boredom">Ennui</data>
+	<data address="/game/anxiety">Anxiété</data>
+	<data address="/game/level">NIVEAU</data>
+	<data address="/game/timer">TEMPS</data>
+	<data address="/game/score">SCORE</data>
+	<data address="/game/gameover">Game Over</data>
+	<data address="/game/conclusion">Texte de conclusion</data>
+	
+  </preset>
+  
+  <preset number="3" name="DE">
+  
+    <data address="/accueil/title">GamEMO</data>
+    <data address="/accueil/tooltip">Drücken Sie den Knopf, um zu beginnen.</data>
+	<data address="/lang/tooltip">Wählen Sie mit dem Schalthebel Ihre Sprache aus und drücken Sie den Knopf, um zu bestätigen.</data>
+	<data address="/lang/name">Deutsch</data>
+	<data address="/sensor/tooltip1">Legen Sie Ihre Finger auf den Sensor</data>
+	<data address="/sensor/tooltip2">Schnallen Sie die Halterung fest</data>
+	<data address="/sensor/tooltip3">Drücken Sie auf den roten Knopfe</data>
+	<data address="/calibration/start">Kalibrierung ist im Gange...</data>
+	<data address="/calibration/stop">Kalibrierung beendet</data>
+	<data address="/calibration/tooltip1"><![CDATA[Der Sensor misst das Niveau Ihrer Langeweile oder Ihrer Ängstlichkeit und passt die Schwierigkeit des Spiels an ihren Gefühlszustand an. <br><br>Entspannen Sie sich,<br>während der Sensor kalibriert wirde.]]></data>
+	<data address="/calibration/tooltip2">Drücken Sie den Knopf, um das Spiel zu beginnen.</data>
+	<data address="/game/boredom">Langeweile</data>
+	<data address="/game/anxiety">Ängstlichkeit</data>
+	<data address="/game/level">NIVEAU</data>
+	<data address="/game/timer">ZEIT</data>
+	<data address="/game/score">SCORE</data>
+	<data address="/game/gameover">Game Over</data>
+	<data address="/game/conclusion">Texte de conclusion</data>
+    
+  </preset>
+</presetXML>
