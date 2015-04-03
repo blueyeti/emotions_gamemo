@@ -1,0 +1,38 @@
+<signatures>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="PackageSignature">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+      <SignatureMethod Algorithm="http://www.w3.org/TR/xmldsig-core#rsa-sha1"/>
+      <Reference URI="#PackageContents">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <DigestValue>bOJtMTlpKCs4q8BFmetR7GVe04YDoDypwbhtrd6eAYU=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue Id="PackageSignatureValue">GD6n6lQZee18Evfa5eLUFD0bIZPEC2rh4oURqnkOIwXKRdDMqQHm4QkNWr8nVpH089fzdbr3JjtN
+7s2mdqQcakMdvCAZ2IDslTItRYN3hsKJz3H0We/eWi8xHfDVzSvGnzuQ3Wt1IbfwxqoesQ2i1TRe
+ElP1E1yxQTglV6YxwfE=</SignatureValue>
+    <KeyInfo>
+      <X509Data>
+        <X509Certificate>MIICJjCCAY6gAwIBAgIbLTVkNWM5MGE2OjE0YjZlNjJjY2U0Oi04MDAwMA0GCSqGSIb3DQEBBQUA
+MD8xCzAJBgNVBAYTAkZSMREwDwYDVQQKEwhibHVleWV0aTEMMAoGA1UECxMDZGV2MQ8wDQYDVQQD
+EwZsYXVncmUwHhcNMTUwMjA4MTI0OTAzWhcNNDAwMjA5MTI0OTAzWjA/MQswCQYDVQQGEwJGUjER
+MA8GA1UEChMIYmx1ZXlldGkxDDAKBgNVBAsTA2RldjEPMA0GA1UEAxMGbGF1Z3JlMIGfMA0GCSqG
+SIb3DQEBAQUAA4GNADCBiQKBgQCRo1rq84vG5Okcx4jzPecwNteTT1IcfWjvt+3ytXtyAkIdxdhE
+Mea2ag7OPTq8+SC8D2KcIUHypsAiPZX192BTvdVEHZpHhmcASdbzTLTRQ5gLu0WcalJwVGl2LW7G
+U5bTmu9sXoLz+RhsMOXatvGQsihoZuJLzu9w3dsoASlaFQIDAQABoxcwFTATBgNVHSUEDDAKBggr
+BgEFBQcDAzANBgkqhkiG9w0BAQUFAAOCAIEAF19QqCNPMb/vYJBvayKqjk0AitdD5BI+2yyPeJh9
+lOy7Qk1VBVPro1nq9z3eTuUU2ZyaHk4y4krZB3mlzW5lVtT/55/wJSaIhJkaQoQ3pZ7mMLQdHwYI
+QlKHgCe+gg2T63ag2NI/D7zU7zrkoCnIjeLijHrvm3v5IosV5tF63y0=</X509Certificate>
+      </X509Data>
+    </KeyInfo>
+    <Object>
+      <Manifest Id="PackageContents">
+        <Reference URI="mimetype"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>0/oCb84THKMagtI0Dy0KogEu92TegdesqRr/clXct1c=</DigestValue></Reference><Reference URI="META-INF/AIR/application.xml"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>P72/dpgKKLbViOhbRFMav2LOE2X/vYcuLVhjGu3wN4g=</DigestValue></Reference><Reference URI="gamemo.xml"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>73TtpY58GOiXbjURi0TFGdakQ4NrtUdkiP3q9N8OvbI=</DigestValue></Reference><Reference URI="Main.swf"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>eakwxngmk3J76RpuL3HD88FT9RiAwiR6niPHBwOGW+8=</DigestValue></Reference><Reference URI="python/biosemisource.py"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>R+z0Te4IlSZf4nY62RU76cry7/PQHHhPPxVzTtl6orI=</DigestValue></Reference><Reference URI="python/emoplay.py"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>odtO+EbvFhWfZ7lXN7rGjvyrWjaFnUZgodMqomVm+Bg=</DigestValue></Reference><Reference URI="python/EmoPlayFeatures.mat"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>v8JsMTA3kmDYzRmXGUchd2R09ROJ5uExRGveSa3xm0k=</DigestValue></Reference><Reference URI="python/Features_Total_256Hz_nbSlices-10.mat"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>TJx2UGqHDAkBMgsomnluKOMqz4SQdjL5QcDK6pyWaJc=</DigestValue></Reference><Reference URI="python/Features_Total_256Hz_nbSlices-5.mat"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>1GHV7gK8RwHH8KIpH8Ky+iQDLTG6E7AMxPsmI5dJ8/0=</DigestValue></Reference><Reference URI="python/GSR_usbser.py"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>rmjbP/z6WYGD4P+4cA90NO0U3OPxCIDWeUUxUh3RELw=</DigestValue></Reference><Reference URI="python/sigphysio.py"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>vOdQHSNQvOns6z/ElDcBUDpJtBqELDtYjeMl3OlvH+M=</DigestValue></Reference><Reference URI="python/test.txt"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>TYOo4pcahLRsf5+0/i27cnv/Cm5Wy3kz6ffLzpObBug=</DigestValue></Reference>
+      </Manifest>
+    </Object>
+    
+  </Signature>
+</signatures>
